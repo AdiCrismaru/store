@@ -1,0 +1,18 @@
+.products_container {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 70px;
+    justify-content: center;
+    display: flex;
+    min-height:70vh;
+}
+
+@media (max-width: 500px) {
+    .products_container {
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 120px;
+        }
+}
+
+

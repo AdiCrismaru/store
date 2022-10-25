@@ -1,0 +1,31 @@
+* {font-family: "AvenirNext", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+.body-container{
+
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(61, 60, 60);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(88, 88, 88);
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(143, 143, 143);
+}
+
+/* selected link */
+a:active {
+  color: rgb(82, 82, 82);
+}
